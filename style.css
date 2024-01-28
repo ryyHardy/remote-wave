@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --text-primary: #ffffff;
+  --sky-clear: rgb(148, 208, 228);
+  --ocean-clear: rgb(88, 110, 255);
+}
+
+* {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.sky {
+  background-color: var(--sky-clear);
+  height: 80vh;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-primary);
+  padding-top: 5vh;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.main-header p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.sea {
+  height: 20vh;
+  background-color: var(--ocean-clear);
+}
+
+.boat {
+  position: absolute;
+  bottom: 19dvh;
+  height: 15vh;
+  width: 15vh;
+}
