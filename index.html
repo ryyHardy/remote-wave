@@ -10,9 +10,27 @@
     <div class="sky">
       <header class="main-header">
         <h1>WorldSurf</h1>
-        <p>Ride the waves! Virtually!</p>
+        <p>Weather app for the high seas!</p>
       </header>
-      <form action="/action_page.php" target="_blank"></form>
+      <form class="coords-form" action="/action_page.php" target="_blank">
+        <input
+          type="number"
+          name="latitude"
+          id="lat-input"
+          placeholder="latitude"
+          required
+          min="-90"
+          max="90" />
+        <input
+          type="number"
+          name="longitude"
+          id="long-input"
+          placeholder="longitude"
+          required
+          min="-180"
+          max="180" />
+        <button type="submit">go!</button>
+      </form>
     </div>
     <img class="boat" src="assets/boat.svg" alt="small boat" />
     <div class="sea"></div>

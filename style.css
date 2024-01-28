@@ -36,6 +36,16 @@
   background-color: var(--ocean-clear);
 }
 
+.coords-form {
+  display: flex;
+  justify-content: center;
+}
+
+.coords-form #lat-input,
+#long-input {
+  width: 20vw;
+}
+
 .boat {
   position: absolute;
   bottom: 19dvh;
